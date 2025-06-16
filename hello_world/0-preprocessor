@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -wall - $CFILE > c 
+gcc -wall -E $CFILE > c 
