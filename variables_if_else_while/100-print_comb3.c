@@ -14,27 +14,26 @@ int main(void)
 
 	while (varDctr != 10)
 	{
-			if (varCtr != 0)
+		if (varCtr != 0)
+		{
+			putchar('0' + varNum1);
+			putchar('0' + varNum2);
+			varNum2++;
+			varCtr--;
+			if (varDctr != 9)
 			{
-				putchar('0' + varNum1);
-				putchar('0' + varNum2);
-				varNum2++;
-				varCtr--;
-				if (varDctr != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
-			else
-			{
-				varBase--;
-				varCtr = varBase;
-				varDctr++;
-				varNum1++;
-				varNum2 = 10 - varBase;
-
-			}
+		}
+		else
+		{
+			varBase--;
+			varCtr = varBase;
+			varDctr++;
+			varNum1++;
+			varNum2 = 10 - varBase;
+		}
 	}
 	putchar('\n');
 	return (0);
