@@ -17,15 +17,15 @@ int main(void)
 
 	if (n > 5)
 	{
-		printf("Last digit of %d is %u and is greater than 5\n", n, lastDigi);
+		printf("Last digit of %i is %i and is greater than 5\n", n, lastDigi);
 	}
 	else if (n == 0)
 	{
-		printf("Last digit of %d is %u and is zero\n", n, lastDigi);
+		printf("Last digit of %i is %i and is zero\n", n, lastDigi);
 	}
 	else
 	{
-		printf("Last digit of %d is %u and is less than 6 and not 0\n", n, lastDigi);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, lastDigi);
 	}
 	return (0);
 }
