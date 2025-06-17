@@ -9,9 +9,9 @@ int main(void)
 	int varNum1 = 0;
 	int varNum2 = 1;
 	int varBase = 9;
-	int varBase2 = 2;
+	int varBase2;
 	int varCtr = varBase;
-	int varDctr = varBase2;
+	int varDctr = 1;
 
 	while (varDctr != 10)
 	{
