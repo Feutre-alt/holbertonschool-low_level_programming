@@ -1,20 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always (0) (Sucess)
+ * _islower - Entry point
+ * @c: int type parameter
+ * Return: (1) Success else (0)
  */
 int _islower(int c)
 {
-	c = 75;
-
-	if (c)
+	if (c >= 97 && c <= 122)
 	{
-		return(1);	
+		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
-
