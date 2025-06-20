@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * times_table - Entry point
  *
  * Return: Always (0) (Sucess)
  */
@@ -19,7 +19,7 @@ void times_table(void)
 		for (a = 1; a <= 9; a++)
 		{
 			y += x;
-			if ( y > 9 )
+			if (y > 9)
 			{
 				y -= x;
 				y -= z;
