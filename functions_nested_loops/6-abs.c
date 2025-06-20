@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * abs - Entry point
- *
+ *_abs - Entry point
+ *@x: int parameter
  * Return: Return absolute value (Sucess)
  */
 int _abs(int x)
