@@ -8,7 +8,7 @@ void print_most_numbers(void)
 {
 	char num = '0';
 
-	while (num < 58i)
+	while (num < 58)
 	{
 		if (num == 50 || num == 52)
 		{
