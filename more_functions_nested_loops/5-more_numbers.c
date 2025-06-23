@@ -17,14 +17,14 @@ void more_numbers(void)
 		num1 = '0';
 		while (b <= 14)
 		{
-			if (num1 == '1')
-			{
-				_putchar(num1);
-			}
 			if (num2 > '9')
 			{
 				num1 = '1';
 				num2 = '0';
+			}
+			if (num1 == '1')
+			{
+				_putchar(num1);
 			}
 			_putchar(num2);
 			num2++;
