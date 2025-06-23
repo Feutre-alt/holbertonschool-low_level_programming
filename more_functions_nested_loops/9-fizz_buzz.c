@@ -22,7 +22,10 @@ int main(void)
 		{
 			printf("%d", num);
 		}
-		putchar(' ');
+		if (num < 100)
+		{
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
