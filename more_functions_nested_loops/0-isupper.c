@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _isupper(int c) - Entry point
+ * _isupper - Entry point
  *@c: int type
  * Return: return 1 if true or 0 if false
  */
