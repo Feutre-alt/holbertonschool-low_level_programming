@@ -12,6 +12,7 @@ void print_rev(char *s)
 	{
 		taille_table++;
 	}
+	taille_table--;
 	while (taille_table >= 0)
 	{
 		_putchar(s[taille_table]);
