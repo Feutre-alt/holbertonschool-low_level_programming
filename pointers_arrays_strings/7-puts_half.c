@@ -12,7 +12,14 @@ void puts_half(char *str)
 	{
 		taille++;
 	}
-	taille = taille / 2;
+	if (taille % 2 == 0)
+	{
+		taille = taille / 2;
+	}
+	else
+	{
+		taille = taille / 2 + 1;
+	}
 	while (str[taille] != '\0')
 	{
 		_putchar(str[taille]);
