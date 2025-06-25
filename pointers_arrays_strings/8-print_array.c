@@ -17,6 +17,7 @@ void print_array(int *a, int n)
 		if (taille != n)
 		{
 			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
