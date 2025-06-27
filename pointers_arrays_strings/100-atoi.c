@@ -10,7 +10,6 @@ int _atoi(char *s)
 	int moins = 0;
 	int nombre = 0;
 	int chiffre = 0;
-
 	while (s[taille] != '\0')
 	{
 		if ((s[taille] < 48 || s[taille] > 57) && chiffre > 0)
@@ -33,5 +32,4 @@ int _atoi(char *s)
 		nombre = nombre * (-1);
 	}
 	return (nombre);
-
 }
