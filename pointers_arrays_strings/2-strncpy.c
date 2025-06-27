@@ -11,13 +11,11 @@ char *_strncpy(char *dest, char *src, int n)
 	int tailleDest = 0;
 	int tailleSrc = 0;
 
-
 	while(tailleSrc < n)
 	{
 		dest[tailleDest] = src[tailleSrc];
 		tailleDest++;
 		tailleSrc++;
 	}
-	dest[tailleDest] = '\0';
 	return (dest);
 }
