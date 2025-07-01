@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
+ * print_chessboard - Entry point
+ *@a: array
  * Return: Always (0) (Sucess)
  */
 void print_chessboard(char (*a)[8])
@@ -12,7 +12,7 @@ void print_chessboard(char (*a)[8])
 	while (h < 8)
 	{
 		l = 0;
-		while(l < 8)
+		while (l < 8)
 		{
 			_putchar(a[h][l]);
 			l++;
