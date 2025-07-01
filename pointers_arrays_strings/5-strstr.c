@@ -7,7 +7,7 @@
 char *_strstr(char *haystack, char *needle)
 {
 	unsigned int taille = 0;
-	unsigned int tailleN;
+	unsigned int tailleN = 0;
 	int flag = 0;
 
 	while (haystack[taille] != '\0')
