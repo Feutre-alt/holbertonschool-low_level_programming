@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
- *
+ * *_strpbrk - Entry point
+ *@s: array
+ *@accept: accept char
  * Return: Always (0) (Sucess)
  */
 char *_strpbrk(char *s, char *accept)
@@ -16,7 +17,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[i] == accept[ia])
 			{
-				return(&s[i]);
+				return (&s[i]);
 			}
 			ia++;
 		}
