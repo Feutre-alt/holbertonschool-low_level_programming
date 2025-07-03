@@ -8,17 +8,17 @@ int factorial(int n)
 {
 	int fact = n;
 
-	if (n > 1)
-	{
-		fact = fact * factorial(n - 1);
-	}
-	if (n < 1)
+	if (n < 0)
 	{
 		return (-1);
 	}
 	if (n == 0)
 	{
 		return (1);
+	}
+	else 
+	{
+		fact = fact * factorial (n - 1);
 	}
 	return (fact);
 }
